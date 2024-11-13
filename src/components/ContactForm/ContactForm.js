@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from "./ContactUs.module.css";
 import { Link } from 'react-router-dom';
+import FrontNav from '../FronNav/FrontNav';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -39,14 +40,9 @@ const ContactUs = () => {
       setFormErrors({ name: '', email: '', message: '' }); // Reset errors
     }
   };
-
   return (
     <div className='contqiner'>
-         <div className={styles.navBar}>
-      <Link to="/login" className={styles.link}>Login</Link>
-      <Link to="/" className={styles.link}>Home</Link>
-      <Link to="/ContactUs" className={styles.link}>Contact</Link>
-    </div>
+         <FrontNav/>
     <div className={styles.contact}>
       <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit}>

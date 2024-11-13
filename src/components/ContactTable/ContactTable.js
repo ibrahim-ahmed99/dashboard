@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../ContactTable/Contact.module.css';
 import { Link } from 'react-router-dom';
+import BackNav from '../BackNav/BackNav';
 
 const ContactTable = () => {
   const [contacts, setContacts] = useState([]);
@@ -26,13 +27,7 @@ const ContactTable = () => {
 
   return (
     <div className='row mx-0'>
-        <div className='col-md-2 p-0'>
-        <div className={styles.nav}>
-                <Link to="/dashbord" className={styles.link}>home</Link>
-                <Link to="/contact" className={styles.link}>contacts</Link>
-                <Link to="/Sales" className={styles.link}>sales</Link>
-                </div>
-        </div>
+      <BackNav/>
         <div className='col-md-10'>
         <div className={styles.contactForm}>
       <h2 className="text-xl font-semibold mb-4">Contact List</h2>

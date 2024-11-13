@@ -14,13 +14,11 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <AuthMiddleware>
           <Route path="/dashbord" element={<Dashbord />} />
           <Route path="/contact" element={<ContactTable />} />
           <Route path="/Sales" element={<Sales />} />
-        </AuthMiddleware>
+        
 
-        <Route path="/contactForm" element={<ContactForm />} />
         <Route path="/login" element={<Login />} />
         <Route path="/ContactUs" element={<ContactForm />} />
         <Route path="/" element={<HomePage />} />

@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "./login.module.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom';
+import FrontNav from "../FronNav/FrontNav";
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -19,11 +20,7 @@ export default function Login() {
   };
   return (
     <div className="container">
-    <div className={styles.navBar}>
-      <Link to="/login" className={styles.link}>Login</Link>
-      <Link to="/" className={styles.link}>Home</Link>
-      <Link to="/ContactUs" className={styles.link}>Contact</Link>
-    </div>
+        <FrontNav/>
       <div className={styles.login}>
       
       <div>
