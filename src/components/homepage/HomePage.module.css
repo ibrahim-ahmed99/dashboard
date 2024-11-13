@@ -1,0 +1,18 @@
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+}
+.link{
+    font-size: 20px;
+    color: chocolate;
+    font-weight: 500;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    padding: 150px 0 0 0;
+    color: cadetblue;
+    font-size: 60px;
+}

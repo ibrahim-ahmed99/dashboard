@@ -1,0 +1,20 @@
+.contact{
+    text-align: center;
+    padding: 100px 0;
+    background: #f0f0f0;
+    margin: auto;
+    max-width: 70%;
+    margin-top: 10%;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+}
+.link{
+    font-size: 20px;
+    color: chocolate;
+    font-weight: 500;
+    text-decoration: none;
+}

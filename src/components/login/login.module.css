@@ -1,0 +1,37 @@
+h2{
+    color: #0ab40a;
+}
+.login{
+    text-align: center;
+    padding: 100px 0;
+    background: #f0f0f0;
+    margin: auto;
+    max-width: 70%;
+    margin-top: 10%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    text-align: left;
+}
+button{
+    background: #0e910e;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 0 0;
+}
+.link{
+    font-size: 20px;
+    color: chocolate;
+    font-weight: 500;
+    text-decoration: none;
+}

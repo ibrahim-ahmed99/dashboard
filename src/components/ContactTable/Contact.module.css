@@ -1,0 +1,25 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+}
+.nav{
+    background: darkcyan;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 20px;
+    color: white;
+    height: 100vh;
+  }
+  h4{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 30px;
+    padding-left: 10px;
+
+  }
+  h4:hover {
+    color: white;
+    background: cadetblue;
+}
